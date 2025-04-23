@@ -4,20 +4,27 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-4 text-center">
-      <img src="{% static 'images/nobody.jpg' %}" width="75%" />
+      <img src="{% static 'css/images/nobody.jpg' %}" width="75%" />
     </div>
     <div class="col-8">
       <!-- Title goes between these h2 tags -->
-      <h2>{{ about.title }}</h2>
+      <h2>{{ about.title }}Luke Nicklin</h2>
       <!-- Content goes directly underneath this -->
       {{ about.content | safe }}
+      A competent and enthusiastic software developer with a passion for technology and a strong desire to learn. I currently work as an interaction designer and hold a professional diploma in UX design and an professional certificate in Visual design through the UX Design Institute. I am an ambitious and proactive individual who works well in a fast-paced environment, enjoys working with others to achieve company goals and takes the opportunity to learn from all experiences.
+      <br>
+      <br>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+      <br>
+      <br>
+      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
     </div>
   </div>
   <div class="row">
     <div class="col text-right">
       <!-- Updated on field goes in here -->
 
-      <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+      <p class="text-end"><em>Updated on: {{ about.updated_on }}23.04.25</em></p>
     </div>
   </div>
 </div>
